@@ -1,4 +1,6 @@
 import { Section } from '../pages/section'
+import styles from './main.module.scss'
+
 //importing images
 import img1 from '../../../images/Icon-CO2.png'
 import divider1 from '../../../images/Spacer-01.png'
@@ -14,8 +16,9 @@ const Main = () => {
     return (
     <>
     <Section>
+        <article className={styles.sectionOne}>
         <h2>HVAD ER CO2?</h2>
-        <figure>
+        <figure className='figure-main'>
                 <img src={img1} alt="CO2-logo" />
                 <figcaption>
                     <h3>CO2 er en gasart der findes naturligt i Jordens atmosfære.</h3>
@@ -34,10 +37,12 @@ const Main = () => {
                 </figcaption>
             </figure>
             <img className="divider" src={divider1} alt="divider-one" />
+        </article>
     </Section>
     <Section>
+    <article className={styles.sectionTwo}>
     <h2>KLIMA OG MILJØ?</h2>
-    <figure>
+    <figure className='figure-main'>
             <img src={img2} alt="climate-icon" />
             <figcaption>
                 <h3>Kort om klimaet og miljøet?</h3>
@@ -51,10 +56,12 @@ const Main = () => {
             </figcaption>
         </figure>
         <img className="divider" src={divider2} alt="divider-two" />
+    </article>
     </Section>
     <Section>
+    <article className={styles.sectionThree}>
     <h2>HVORDAN KAN JEG BIDRAGE?</h2>
-    <figure>
+    <figure className='figure-main'>
             <img src={img3} alt="icon-checklist" />
             <figcaption>
                 <h3>Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
@@ -68,10 +75,12 @@ const Main = () => {
             </figcaption>
         </figure>
         <img className="divider" src={divider3} alt="divider-three" />
+    </article>
     </Section>
     <Section>
+    <article className={styles.sectionFour}>
     <h2>DELTAG I ARRANGEMENT</h2>
-    <figure>
+    <figure className='figure-main'>
             <img src={img4} alt="icon-cleaning" />
             <figcaption>
                 <h3>Deltag i eet af vores arrangementer og gør en forskel!Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
@@ -81,13 +90,14 @@ const Main = () => {
                 <p>- Mød nye mennesker omkring en fælles opgave.</p>
                 <p>- Tag famillien med på en dag for naturen og vores fremtid..</p>
                 <p>- Tilmeld dig eet af vore arrangementer, eller modtag information om Klimatossen!</p>
+                <p>- Hent mere information på siden “Tilmeld Dig”.</p>
                 <a className='moreinfo' href="læsmere">Læs Mere</a>
             </figcaption>
         </figure>
         <img className="divider" src={divider4} alt="divider-four" />
+    </article>
     </Section>
     </>
-    
     )
 }
 
