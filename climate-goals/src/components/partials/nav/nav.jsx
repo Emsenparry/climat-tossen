@@ -1,3 +1,5 @@
+import styles from './nav.module.scss'
+
 const NavItems = [
     'START',
     'DIT CO2',
@@ -7,7 +9,7 @@ const NavItems = [
 
 const Nav = props => {
     return (
-        <nav>
+        <nav className={styles.navMain}>
             <ul>
                 {props.data.map((NavItems, key) => {
                     return(
