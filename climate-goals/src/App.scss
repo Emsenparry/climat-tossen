@@ -8,3 +8,13 @@
     scroll-behavior: smooth;
     font-family: 'open sans condensed', 'arial';
 }
+
+
+div{
+    .subText {
+        font-size: 1.3em;
+        text-align: center;
+        margin: 3em;
+        color: $light-blue;
+    }
+}
