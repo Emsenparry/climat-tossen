@@ -2,5 +2,27 @@
 
 .footerMain{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2em;
+    padding: 1em;
+    color: $white;
+    background-color: $dark-blue;
+    p{
+        font-size: 1.1em;
+    }
+    a{
+        color: $white;
+        margin-top: 1em;
+    }
+    .footerImg{
+        margin-top: 3em;
+        img{
+            width: 100%;
+        }
+    }
+    h4{
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
 }

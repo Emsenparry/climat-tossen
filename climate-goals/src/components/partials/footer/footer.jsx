@@ -1,24 +1,24 @@
-import footerimg from '../../../images/KT-Logo.png'
+import logo from '../../../images/KT-Logo.png'
 import styles from './footer.module.scss'
 
 const Footer = () => {
     return(
         <footer className={styles.footerMain}>
             <div className={styles.footerInfo}>
-                <h3>KlimaTossen NPO</h3>
+                <h4>KlimaTossen NPO</h4>
                 <p>Vesterbrogade 92</p>
                 <p>9000 Aalborg</p>
                 <p>info@klima-tossen.dk</p>
                 <p>9922 3344 (Åben man - fre: 08.00 - 16.00)</p>
-                <h3>SAMARBEJDSPARTNERE:</h3>
-                <a href="https://www.dn.dk">https://www.dn.dk</a>
+                <h4>SAMARBEJDSPARTNERE:</h4>
+                <a href="https://www.dn.dk">https://www.dn.dk</a><br />
                 <a href="http://www.miljoeportal.dk">http://www.miljoeportal.dk</a>
-                <div>
-                    <img src={footerimg} alt="KT-Logo" />
+                <div className={styles.footerImg}>
+                    <img src={logo} alt="KT-Logo" />
                 </div>
             </div>
             <div className={styles.footerForm}>
-                <h3>Ja tak! Jeg vil gerne høre mere.</h3>
+                <h4>Ja tak! Jeg vil gerne høre mere.</h4>
                 <form>
                     <input type="text" placeholder='Fulde navn'/>
                     <input type="text" placeholder='Hjem by'/>
