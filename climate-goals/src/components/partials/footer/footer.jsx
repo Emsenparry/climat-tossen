@@ -24,8 +24,14 @@ const Footer = () => {
                     <input type="text" placeholder='Hjem by'/>
                     <input type="email" placeholder='Email adresse'/>
                     <input type="number" placeholder='Telefon nummer'/>
-                    <label><input type="checkbox"/>Få en samtale med Klimatossen</label>
-                    <label><input type="checkbox"/>Modtag Nyhedsbrev</label><br />
+                    <div className={styles.checkbox}>
+                    <label>Få en samtale med Klimatossen</label>
+                    <input type="checkbox"/>
+                    </div>
+                    <div className={styles.checkbox}>
+                    <label>Modtag Nyhedsbrev</label>
+                    <input type="checkbox"/><br />
+                    </div>
                     <button>Send</button>
                 </form>
             </div>

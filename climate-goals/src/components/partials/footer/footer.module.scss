@@ -28,8 +28,25 @@
 
     .footerForm{
         form{
+           
+            .checkbox{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                input{
+                  
+                }
+            }
+            button{
+                background-color: $light-blue;
+                border: none;
+                width: 100%;
+                padding: 0.5em;
+                color: $white;
+                font-size: 1.1em;
+            }
+
             input{
-                margin-bottom: 0.5em;
+                margin-bottom: 1em;
                 display: block;
                 width: 100%;
                 padding: 0.5em;
@@ -43,26 +60,6 @@
                     color: $white;
                     font-size: 1.2em;
                 }
-            }
-            label{
-                color: red;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                input{
-                    height: 110%;
-                    color: $light-blue;
-                    ::before{
-                        background-color: red;
-                    }
-                }
-            }
-            button{
-                background-color: $light-blue;
-                border: none;
-                width: 100%;
-                padding: 0.5em;
-                color: $white;
-                font-size: 1.1em;
             }
         }
     }
