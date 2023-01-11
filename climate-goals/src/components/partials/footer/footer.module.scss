@@ -31,13 +31,13 @@
             .checkbox{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                margin-bottom: 1em;
                 label{
                     font-size: 1.2em;
                 }
                 input[type=checkbox] {
                     accent-color: $light-blue;
                 }
-                
             }
             button{
                 background-color: $light-blue;
