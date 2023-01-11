@@ -2,7 +2,7 @@
 
 .footerMain{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 2em;
     padding: 1em;
     color: $white;
@@ -25,4 +25,46 @@
         margin-bottom: 0.5em;
         margin-top: 0.5em;
     }
+
+    .footerForm{
+        form{
+            input{
+                margin-bottom: 0.5em;
+                display: block;
+                width: 100%;
+                padding: 0.5em;
+                background-color: $light-blue;
+                color: $white;
+                border: none;
+                &:focus{
+                    outline: none;
+                }
+                &::placeholder{
+                    color: $white;
+                    font-size: 1.2em;
+                }
+            }
+            label{
+                color: red;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                input{
+                    height: 110%;
+                    color: $light-blue;
+                    ::before{
+                        background-color: red;
+                    }
+                }
+            }
+            button{
+                background-color: $light-blue;
+                border: none;
+                width: 100%;
+                padding: 0.5em;
+                color: $white;
+                font-size: 1.1em;
+            }
+        }
+    }
 }
+
