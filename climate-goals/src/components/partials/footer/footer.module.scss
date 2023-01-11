@@ -36,10 +36,12 @@
                 grid-template-columns: 1fr 1fr;
                 margin-bottom: 1em;
                 label{
-                    font-size: 1.2em;
+                    font-size: 1.5vw;
                 }
                 input[type="checkbox"] {
                     accent-color: $light-blue;
+                    width: 3vw;
+                    height: 3vw;
                 }
             }
             button{
