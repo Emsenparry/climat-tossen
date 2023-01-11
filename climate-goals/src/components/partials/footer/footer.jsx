@@ -1,9 +1,10 @@
 import footerimg from '../../../images/KT-Logo.png'
+import styles from './footer.module.scss'
 
 const Footer = () => {
     return(
-        <footer className='footer-main'>
-            <div className='footer-info'>
+        <footer className={styles.footerMain}>
+            <div className={styles.footerInfo}>
                 <h3>KlimaTossen NPO</h3>
                 <p>Vesterbrogade 92</p>
                 <p>9000 Aalborg</p>
@@ -12,8 +13,11 @@ const Footer = () => {
                 <h3>SAMARBEJDSPARTNERE:</h3>
                 <a href="https://www.dn.dk">https://www.dn.dk</a>
                 <a href="http://www.miljoeportal.dk">http://www.miljoeportal.dk</a>
+                <div>
+                    <img src={footerimg} alt="KT-Logo" />
+                </div>
             </div>
-            <div className='footer-form'>
+            <div className={styles.footerForm}>
                 <h3>Ja tak! Jeg vil gerne høre mere.</h3>
                 <form>
                     <input type="text" placeholder='Fulde navn'/>
@@ -27,7 +31,6 @@ const Footer = () => {
                     <button>Send</button>
                 </form>
             </div>
-            <img src={footerimg} alt="KT-Logo" />
         </footer>
     )
 }

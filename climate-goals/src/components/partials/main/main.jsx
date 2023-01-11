@@ -9,7 +9,6 @@ import divider2 from '../../../images/Spacer-02.png'
 import img3 from '../../../images/Icon-Checklist.png'
 import divider3 from '../../../images/Spacer-03.png'
 import img4 from '../../../images/Icon-Arrangement.png'
-import divider4 from '../../../images/Spacer-04.png'
 
 
 const Main = () => {
@@ -18,7 +17,7 @@ const Main = () => {
     <Section>
         <article className={styles.sectionOne}>
         <h2>HVAD ER CO2?</h2>
-        <figure className='figure-main'>
+        <figure className={styles.figureMain}>
                 <img src={img1} alt="CO2-logo" />
                 <figcaption>
                     <h3>CO2 er en gasart der findes naturligt i Jordens atmosfære.</h3>
@@ -36,13 +35,13 @@ const Main = () => {
                     <a className='moreinfo' href="læsmere">Læs Mere</a>
                 </figcaption>
             </figure>
-            <img className="divider" src={divider1} alt="divider-one" />
         </article>
+        <img className={styles.divider} src={divider1} alt="divider-one" />
     </Section>
     <Section>
     <article className={styles.sectionTwo}>
     <h2>KLIMA OG MILJØ?</h2>
-    <figure className='figure-main'>
+    <figure className={styles.figureMain}>
             <img src={img2} alt="climate-icon" />
             <figcaption>
                 <h3>Kort om klimaet og miljøet?</h3>
@@ -55,13 +54,13 @@ const Main = () => {
                 <a className='moreinfo' href="læsmere">Læs Mere</a>
             </figcaption>
         </figure>
-        <img className="divider" src={divider2} alt="divider-two" />
     </article>
+    <img className={styles.divider} src={divider2} alt="divider-two" />
     </Section>
     <Section>
     <article className={styles.sectionThree}>
     <h2>HVORDAN KAN JEG BIDRAGE?</h2>
-    <figure className='figure-main'>
+    <figure className={styles.figureMain}>
             <img src={img3} alt="icon-checklist" />
             <figcaption>
                 <h3>Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
@@ -74,16 +73,16 @@ const Main = () => {
                 <a className='moreinfo' href="læsmere">Læs Mere</a>
             </figcaption>
         </figure>
-        <img className="divider" src={divider3} alt="divider-three" />
     </article>
+    <img className={styles.divider} src={divider3} alt="divider-three" />
     </Section>
     <Section>
     <article className={styles.sectionFour}>
     <h2>DELTAG I ARRANGEMENT</h2>
-    <figure className='figure-main'>
+    <figure className={styles.figureMain}>
             <img src={img4} alt="icon-cleaning" />
             <figcaption>
-                <h3>Deltag i eet af vores arrangementer og gør en forskel!Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
+                <h3>Deltag i eet af vores arrangementer og gør en forskel! Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
                 <p>- “Combing” - ”at fjerne affald”, f.eks. beachcombing: , rense stranden for affald og elementer der ikke hører hjemme her.  Invester en dag med familien i naturen og sammen med andre.</p>
                 <p>- Tilmeld dig eet arrangement i dit område</p>
                 <p>- Tag ansvar hjælp dit nærområde og os alle sammen generelt.</p>
@@ -94,7 +93,6 @@ const Main = () => {
                 <a className='moreinfo' href="læsmere">Læs Mere</a>
             </figcaption>
         </figure>
-        <img className="divider" src={divider4} alt="divider-four" />
     </article>
     </Section>
     </>

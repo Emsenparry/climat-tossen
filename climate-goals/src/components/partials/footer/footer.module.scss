@@ -1,5 +1,6 @@
+@import '../../../assets/partials/colors';
 
-
-.sidefod{
-    background-color: red;
+.footerMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
