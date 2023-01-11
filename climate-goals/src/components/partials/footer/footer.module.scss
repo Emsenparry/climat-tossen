@@ -28,13 +28,16 @@
 
     .footerForm{
         form{
-           
             .checkbox{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                input{
-                  
+                label{
+                    font-size: 1.2em;
                 }
+                input[type=checkbox] {
+                    accent-color: $light-blue;
+                }
+                
             }
             button{
                 background-color: $light-blue;
@@ -44,8 +47,9 @@
                 color: $white;
                 font-size: 1.1em;
             }
-
-            input{
+            input[type=text],
+            input[type=email],
+            input[type=number]{
                 margin-bottom: 1em;
                 display: block;
                 width: 100%;
