@@ -11,7 +11,7 @@
         margin-left: 1.2em;
     }
     p{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     a{
         color: $white;
@@ -20,7 +20,7 @@
     .footerImg{
         margin-top: 3em;
         img{
-            width: 100%;
+            max-width: 100%;
         }
     }
     h4{
@@ -31,14 +31,14 @@
 
     .footerForm{
         form{
-            .checkbox{
+            .checkboxFooter{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 margin-bottom: 1em;
                 label{
                     font-size: 1.2em;
                 }
-                input[type=checkbox] {
+                input[type="checkbox"] {
                     accent-color: $light-blue;
                 }
             }
@@ -50,9 +50,9 @@
                 color: $white;
                 font-size: 1.1em;
             }
-            input[type=text],
-            input[type=email],
-            input[type=number]{
+            input[type="text"],
+            input[type="email"],
+            input[type="number"]{
                 margin-bottom: 1em;
                 display: block;
                 width: 100%;

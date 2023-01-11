@@ -25,13 +25,13 @@ const Footer = () => {
                     <input type="email" placeholder='Email adresse'/>
                     <input type="number" placeholder='Telefon nummer'/>
 
-                    <div className={styles.checkbox}>
+                    <div className={styles.checkboxFooter}>
                     <label>Få en samtale med Klimatossen</label>
                     <input type="checkbox"/>
                     </div>
-                    <div className={styles.checkbox}>
+                    <div className={styles.checkboxFooter}>
                     <label>Modtag Nyhedsbrev</label>
-                    <input type="checkbox"/><br />
+                    <input type="checkbox"/>
                     </div>
                     <button>Send</button>
                 </form>
