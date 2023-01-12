@@ -1,29 +1,14 @@
-@import "../../../assets/partials/colors";
+@import "../../../../assets/partials/colors";
 
 
 .divider{
     width: 100%;
     display: block;
 }
-.sectionOne{
-    background-color: $brown;   
-}
-.sectionTwo{
-    background-color: $blue;  
-}
-.sectionThree{
-    background-color: $green;  
-}
+
 .sectionFour{
     background-color: $light-brown;  
-}
-
-.sectionOne,
-.sectionTwo,
-.sectionThree,
-.sectionFour{
     padding-bottom: 3em;
-}
 h2{
     text-align: center;
     padding-top: 0.5em;
@@ -60,3 +45,5 @@ h2{
         font-size: 1.1em;
     }
 }
+}
+
