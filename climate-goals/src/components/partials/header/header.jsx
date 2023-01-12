@@ -5,6 +5,7 @@ import { Nav, NavItem } from '../nav/nav'
 
 const Header = () => {
     return (
+        <>
         <header className={styles.headerMain}>
             <div className="logo">
                 <img src={Logo} alt="Klima-Tossen" />
@@ -12,9 +13,10 @@ const Header = () => {
             <div className={styles.bottomRight}>
                 <p>"Det er rigtigt, at vi hver især kun kan bidrage lidt til den samlede løsning."</p>
                 <p>"Lige så rigtigt er det, at vi slet ikke kan nå målet, uden at hver især bidrager en smule til det."</p>
-            </div>
-            <Nav data={NavItem} />  
+            </div> 
         </header>
+        <Nav data={NavItem} /> 
+        </>
     )
 }
 
