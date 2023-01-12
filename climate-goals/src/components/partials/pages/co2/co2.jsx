@@ -10,7 +10,9 @@ export const Co2 = () => {
 		<article className={styles.sectionThree}>
 		<h2>HVORDAN KAN JEG BIDRAGE?</h2>
 		<figure className={styles.figureMain}>
+			<div className={styles.imgCentered}>
 				<img src={img3} alt="icon-checklist" />
+			</div>
 				<figcaption>
 					<h3>Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
 					<p>- Dit forbrug overordnet herunder din produktion af affald, bidrager til udledning af CO2</p>

@@ -11,7 +11,9 @@ export const Cleanup = () => {
     <article className={styles.sectionTwo}>
     <h2>KLIMA OG MILJØ?</h2>
     <figure className={styles.figureMain}>
+        <div className={styles.imgCentered}>
             <img src={img2} alt="climate-icon" />
+            </div>
             <figcaption>
                 <h3>Kort om klimaet og miljøet?</h3>
                 <p>- Klima og miljø hænger sammen.</p>

@@ -10,7 +10,9 @@ export const Home = () => {
         <article className={styles.sectionOne}>
         <h2>HVAD ER CO2?</h2>
         <figure className={styles.figureMain}>
+            <div className={styles.imgCentered}>
                 <img src={img1} alt="CO2-logo" />
+                </div>
                 <figcaption>
                     <h3>CO2 er en gasart der findes naturligt i Jordens atmosfære.</h3>
                     <p>- CO2, findes naturligt i atmosfæren.</p>

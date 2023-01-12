@@ -17,14 +17,18 @@ h2{
 }
 .figureMain{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 1em;
     gap: 2em;
-    margin: 0 1em;
+    margin: 0 1em 0 1em;
     position: relative;
+    .imgCentered{
+        display: flex;
+        justify-content: center;
+    }
     img{
         max-width: 100%;
-        object-fit: contain;
+        object-fit: contain;  
     }
     h3{
         font-size: 1.5em;

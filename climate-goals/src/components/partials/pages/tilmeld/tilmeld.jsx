@@ -9,7 +9,10 @@ export const Tilmeld = () => {
     <article className={styles.sectionFour}>
     <h2>DELTAG I ARRANGEMENT</h2>
     <figure className={styles.figureMain}>
+        <div className={styles.imgCentered}>
             <img src={img4} alt="icon-cleaning" />
+        </div>
+            
             <figcaption>
                 <h3>Deltag i eet af vores arrangementer og gør en forskel! Hvordan belaster du miljøet mindst muligt i dagligdagen?</h3>
                 <p>- “Combing” - ”at fjerne affald”, f.eks. beachcombing: , rense stranden for affald og elementer der ikke hører hjemme her.  Invester en dag med familien i naturen og sammen med andre.</p>
