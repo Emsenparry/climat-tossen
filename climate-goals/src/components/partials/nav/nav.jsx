@@ -5,7 +5,7 @@ const NavItem = [
     {navtitle: 'START', path: "/" },
     {navtitle: 'DIT CO2', path: "/co2" },
     {navtitle: 'CLEAN UP', path: "/cleanup" },
-    {navtitle: 'TILMELD', path: "/tilmeld" }
+    {navtitle: 'TILMELD DIG', path: "/tilmeld" }
 ];
 
 const Nav = props => {
