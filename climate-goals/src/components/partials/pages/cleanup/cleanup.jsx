@@ -2,7 +2,6 @@ import { Section } from "../section"
 import styles from './cleanup.module.scss';
 
 import img2 from '../../../../images/Icon-Climate.png'
-import divider2 from '../../../../images/Spacer-02.png'
 
 
 export const Cleanup = () => {
@@ -26,7 +25,6 @@ export const Cleanup = () => {
             </figcaption>
         </figure>
     </article>
-    <img className={styles.divider} src={divider2} alt="divider-two" />
     </Section>
 	)
 }

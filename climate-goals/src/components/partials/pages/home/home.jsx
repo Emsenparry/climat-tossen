@@ -2,7 +2,6 @@ import { Section } from "../section"
 import styles from './home.module.scss';
 
 import img1 from '../../../../images/Icon-CO2.png'
-import divider1 from '../../../../images/Spacer-01.png'
 
 export const Home = () => {
 	return (
@@ -30,7 +29,6 @@ export const Home = () => {
                 </figcaption>
             </figure>
         </article>
-        <img className={styles.divider} src={divider1} alt="divider-one" />
     </Section>
 	)
 }
